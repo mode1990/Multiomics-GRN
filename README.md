@@ -111,21 +111,6 @@ The pipeline:
 4. Tests TF motif enrichment in DORC peaks
 5. Scores TF-target relationships by correlation × enrichment
 
-## Troubleshooting
-
-### "Error in resize()..."
-- **Cause**: Namespace conflict between IRanges and cisTopic
-- **Fix**: Script loads `IRanges` early and sets `resize <- IRanges::resize`
-
-### Too few DORC genes (<30)
-- Lower `dorc_cutoff` from 1 to 0.5
-- Increase `pval_cutoff` from 0.05 to 0.1
-- Use more peaks: `nfeatures_atac = -1`
-
-### Long runtime
-- Reduce `nfeatures_atac` and `nfeatures_rna`
-- Increase `nCores` for parallel processing
-- Use subset of cells: `ncells = 1000`
 
 ## Citation
 
