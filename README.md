@@ -120,10 +120,6 @@ If you use this pipeline, please cite the tools on which this pipeline relys:
 
 **cisTopic**: Bravo González-Blas et al. (2019) "cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data" *Nature Methods*
 
-## License
-
-MIT License - See LICENSE file for details
-
 ## Author
 
 Mo Dehestani - Oct 2025
