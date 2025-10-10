@@ -7,7 +7,7 @@ Infers transcription factor (TF)-target gene regulatory networks from paired sin
 
 This pipeline processes multiome (paired scRNA-seq + scATAC-seq) data to identify gene regulatory relationships by:
 
-1. **Topic modeling** chromatin accessibility patterns (cisTopic)
+1. **Topic modeling** chromatin accessibility patterns by LDA (cisTopic)
 2. **Correlating** ATAC peaks with gene expression 
 3. **Identifying** DORC (Dynamic Open Regulatory Chromatin) genes
 4. **Inferring** TF-target relationships via motif enrichment in correlated peaks
