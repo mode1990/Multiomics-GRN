@@ -124,6 +124,4 @@ If you use this pipeline, please cite the tools on which this pipeline relys:
 
 Mo Dehestani - Oct 2025
 
-## Repository
 
-https://github.com/yourusername/figr-grn-pipeline
