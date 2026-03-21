@@ -368,7 +368,7 @@ cat(sprintf("✓ Saved to: %s\n\n", CONFIG$output_file))
 # Summary Report
 # ------------------------------------------------------------------------------
 
-cat(strrep("=", 70), "\n")
+cat(strrep("=", 60), "\n")
 cat("MULTIOME DATA PREPARATION - SUMMARY\n")
 cat(strrep("=", 70), "\n\n")
 
